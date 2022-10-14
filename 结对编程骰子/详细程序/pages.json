@@ -1,0 +1,28 @@
+{
+	"pages": [{
+		"path": "pages/home/home",
+		"style": {}
+	}],
+	"subPackages": [{
+		"root":"subpkg",
+		"pages": [{
+			"path": "setting/setting",
+			"style": {}
+		},{
+			"path": "singlePlayer/singlePlayer",
+			"style": {}
+		},{
+			"path" : "multiPlayer/multiPlayer",
+			"style": {}                                                                                  
+		}]	
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "逍遥骰",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
