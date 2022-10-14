@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.home {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url("http://gd-hbimg.huaban.com/4e1849fe321ff056f6566d70b1c90e1892154bb511c72-ILL0hJ_fw658");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.home .mosare {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  position: absolute;
+  -webkit-animation: mosare 0.25s forwards;
+          animation: mosare 0.25s forwards;
+}
+.home .mosare .mosare-img {
+  margin-left: -24px;
+  margin-top: -24px;
+  height: 100%;
+  width: 100%;
+}
+@-webkit-keyframes mosare {
+0% {
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+}
+50% {
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+}
+99% {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+100% {
+    width: 0;
+    height: 0;
+}
+}
+@keyframes mosare {
+0% {
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+}
+50% {
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+}
+99% {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+100% {
+    width: 0;
+    height: 0;
+}
+}
+.home .title {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+.home .title .background-music {
+  position: absolute;
+  top: 2vw;
+  right: 3vw;
+  width: 16vw;
+  height: 16vw;
+  background-color: rgba(0, 0, 0, 0);
+}
+.home .title .background-music .voice-img {
+  width: 150%;
+  height: 100%;
+}
+.home .title .background-music::after {
+  border: none;
+}
+.home .title .title-img {
+  width: 80%;
+  margin-top: -3vh;
+}
+.home .button {
+  margin-top: -5vh;
+}
+.home .button .btn {
+  width: 80vw;
+  height: 11vh;
+  margin-bottom: 3vh;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+}
+.home .button .btn .btn-img {
+  margin-top: -14vh;
+  width: 100%;
+}
+.home .button .btn::after {
+  border: none;
+}
+

@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.singlePlayer {
+  position: relative;
+  height: 100vh;
+  background: url("http://gd-hbimg.huaban.com/4e1849fe321ff056f6566d70b1c90e1892154bb511c72-ILL0hJ_fw658");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.singlePlayer .mosare {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  position: absolute;
+  -webkit-animation: mosare 0.25s forwards;
+          animation: mosare 0.25s forwards;
+}
+.singlePlayer .mosare .mosare-img {
+  margin-left: -24px;
+  margin-top: -24px;
+  height: 100%;
+  width: 100%;
+}
+@-webkit-keyframes mosare {
+0% {
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+}
+50% {
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+}
+99% {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+100% {
+    width: 0;
+    height: 0;
+}
+}
+@keyframes mosare {
+0% {
+    width: 50px;
+    height: 50px;
+    opacity: 0.2;
+}
+50% {
+    width: 70px;
+    height: 70px;
+    opacity: 1;
+}
+99% {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+100% {
+    width: 0;
+    height: 0;
+}
+}
+.singlePlayer .top {
+  height: 10%;
+  padding: 4%;
+}
+.singlePlayer .top .my {
+  height: 60px;
+  width: 60px;
+  margin-left: 24vw;
+  float: left;
+  font-size: 22px;
+  font-family: cursive;
+  font-weight: 600;
+  line-height: 60px;
+}
+.singlePlayer .top .dice {
+  float: left;
+  height: 60px;
+  width: 60px;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+.singlePlayer .top .dice .dice-img {
+  width: 60px;
+  height: 60px;
+}
+.singlePlayer .middle {
+  height: 69%;
+}
+.singlePlayer .middle .score {
+  height: 64px;
+  width: 64px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+.singlePlayer .middle .score-left {
+  float: left;
+  margin: 28vh 0 0 3vw;
+}
+.singlePlayer .middle .score-right {
+  float: right;
+  margin: 28vh 3vw 0 0;
+}
+.singlePlayer .middle .game-body {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+.singlePlayer .middle .game-body .dice-item {
+  float: left;
+  margin: 0 2px 2px 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  background: #333;
+  line-height: 60px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+.singlePlayer .middle .game-body .dice-item .dice-item-img {
+  height: 60px;
+  width: 60px;
+  margin: 2px;
+  border-radius: 10px;
+}
+.singlePlayer .bottom {
+  height: 10%;
+  padding: 4%;
+}
+.singlePlayer .bottom .your {
+  height: 60px;
+  width: 60px;
+  margin-right: 20vw;
+  float: right;
+  font-size: 22px;
+  font-family: cursive;
+  font-weight: 600;
+  line-height: 60px;
+}
+.singlePlayer .bottom .dice {
+  float: right;
+  height: 60px;
+  width: 60px;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+.singlePlayer .bottom .dice .dice-img {
+  width: 60px;
+  height: 60px;
+}
+.choose-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 380px;
+  width: 240px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.choose-item button {
+  margin: 0 auto;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  line-height: 120px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.choose-item button .choose-img {
+  width: 100%;
+  height: 85%;
+}
+.choose-item button::after {
+  border: none;
+}
+

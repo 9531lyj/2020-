@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/home/home"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "setting/setting",
+        "singlePlayer/singlePlayer",
+        "multiPlayer/multiPlayer"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "逍遥骰",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {},
+  "unipush": {
+    "enable": false
+  },
+  "usingComponents": {}
+}
